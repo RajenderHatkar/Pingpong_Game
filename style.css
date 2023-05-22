@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    background-color: rgb(100, 35, 64);
+}
+/*board design*/
+#board {
+  
+    height: 525px;
+    width: 60%;
+    background-color: rgb(206, 198, 198);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%, -50%);
+    border: 1px solid black;
+}
+
+#bar-1 {
+    height: 25px;
+    width: 100px;
+    background-color: rgb(123, 28, 177);
+    position: fixed;
+    border-radius: 10px;
+    margin-left: 400px;
+}
+
+#bar-2 {
+    height: 25px;
+    width: 100px;
+    background-color: rgb(123, 28, 177);
+    position: fixed;
+    border-radius: 10px;
+    margin-left: 400px;
+    margin-top: 500px;
+}
+
+#ball {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: rgb(229, 197, 13);
+    position: fixed;
+    margin-left: 440px;
+    margin-top: 465px;
+}
+span{
+    color: rgb(236, 221, 229);
+}
+/*SCoreboard design*/
+#scoreboard {
+    position:relative;
+    width: 20%;
+    margin: 8px;
+    padding: 5px;
+    left: 8px;
+    top: 5.8rem;
+    text-align: left;
+    background-color: aliceblue;
+    color: rgb(67, 67, 85);
+}
+
+#scoreboard-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(169, 119, 53);
+}
+
+hr {
+    border: 2px solid black;
+    width: 300px;
+    margin-bottom: 1rem;
+}
+
+#player-one-score {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+#player-two-score {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+#max-score {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
